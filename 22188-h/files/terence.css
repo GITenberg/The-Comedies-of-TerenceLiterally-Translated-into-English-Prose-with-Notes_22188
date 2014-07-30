@@ -1,0 +1,146 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+pre {color: #000; background-color: #FFF; padding: 1em;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;}
+hr.mid {width: 40%;}
+hr.small {width: 30%;}
+hr.tiny {width: 20%;}
+
+div.titlepage {margin-top: 3em; margin-bottom: 3em;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin-top: .5em; margin-bottom: .5em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 175%;}
+h3 {font-size: 150%;}
+h4 {font-size: 125%;}
+h4.chapter {margin-top: 4em; margin-bottom: 1em;}
+h5 {font-size: 100%;}
+h6 {font-size: 85%;}
+
+div.titlepage h1 {letter-spacing: .25em; padding-left: .25em;}
+div.endnote h5 {font-size: 108%; margin-top: 1em;}
+div.titlepage h6 {font-size: 75%;}
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.illustration {text-align: center; margin-top: 1em; margin-bottom: 1em;}
+p.center {text-align: center;}
+p.right {text-align: right;}
+p.inset {padding-left: 2em;}
+
+
+/* footnotes & tags */
+
+div.footnote {margin: 1em 2em;}
+div.footnote p {font-size: 95%;}
+div.poem {margin-left: 4em; margin-top: .5em;}
+div.poem p {margin-left: 2em; text-indent: -2em; margin-top: 0em;}
+
+a.tag {text-decoration: none; vertical-align: .4em; font-size: 80%;
+line-height: 0em;}
+div.footnote a, div.contents a {text-decoration: none;}
+
+
+/* drama */
+
+h2.title {font-size: 167%; margin-top: 2em; margin-bottom: .5em; letter-spacing: .2em;}
+h2.subtitle {margin-top: 2em;}
+
+span.subtitle {font-size: 80%; letter-spacing: .1em;}
+
+table.cast p {margin-left: 2em; text-indent: -2em; margin-top: 0em;}
+
+h3.subject {font-size: 133%; letter-spacing: .2em; margin-top: 2em;}
+
+h4.act {margin-top: 3em; margin-bottom: .5em;}
+h5.scene {font-variant: small-caps; margin-top: 2em;
+margin-bottom: .75em;}
+
+h4.act + h5.scene {margin-top: 1em;}
+
+p.scenedesc {text-align: center; font-style: italic; margin-top: .75em; margin-bottom: .75em;}
+p.stagedir {margin-left: 4em; font-style: italic;}
+p.stagedir:before {font-style: normal; content: "(";}
+p.stagedir:after {font-style: normal; content: ")";}
+
+span.charname {font-variant: small-caps; font-style: normal;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+table.toc {width: 80%;}
+table.harper {border-collapse: collapse;}
+table.endnote {border-spacing: .5em; margin-bottom: 0em;}
+table.contents {border-spacing: 2em .5em; margin-top: 0em;
+margin-bottom: 0em;}
+
+col.leftline {border-left: 1px solid #000;}
+
+th {vertical-align: middle; text-align: center;
+font-style: normal; font-weight: bold; padding: .5em;}
+td {vertical-align: top; text-align: left; padding: .1em;}
+
+td.number {text-align: right;}
+
+td.bracket {padding: 0em .1em 0em 1em; vertical-align: middle;
+background-repeat: no-repeat; background-position: center left;}
+td.bracket.two {background-image: url("../images/bracket.gif");}
+td.bracket.three {background-image: url("../images/bracket3.gif");}
+
+
+/* conditional */
+
+table.toc p, table.harper p {margin-top: 0em; margin-left: 1.5em;
+text-indent: -1.5em; line-height: normal;}
+
+table.toc p {font-variant: small-caps;}
+table.toc a {text-decoration: none;}
+
+table.harper td {padding: .2em 1em; font-size: 90%;}
+table.cast td {padding-top: 0em; padding-bottom: 0em;}
+
+table.endnote td {text-align: center;}
+table.endnote p {font-family: serif; font-size: 92%; text-align: center;}
+
+
+.smallroman {font-size: 0.8em;}
+.smallcaps {font-variant: small-caps; font-style: normal;}
+
+/* greek original or translit */
+
+.greek {border-bottom: 1px dotted #666;}
+
+/* my additions */
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+ins.edcorr {text-decoration: none; border-bottom: thin solid red;}
+ins.mycorr {text-decoration: none; border-bottom: thin dotted red;}
+
+/* page number */
+
+.pagenum {position: absolute; right: 2%; font-size: 95%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em;}
+
+/* Transcriber's Note */
+
+div.mynote {background-color: #DDE; color: #000; padding: .5em 1em 1em;
+margin: 2em 5%;}
+p.mynote {background-color: #DDE; color: #000; padding: 1em;
+margin: 1em 5%; font-family: sans-serif; font-size: 90%;}
+div.mynote p {font-family: sans-serif; font-size: 90%;}
+div.mynote a {text-decoration: none;}
+
+div.endnote {margin: 4em 1em; padding: .5em 1em 1em;
+font-family: sans-serif; font-size: 90%; border: 4px ridge #9AF;}
+div.contents {margin: 2em; text-align: center; padding: .5em 1em 1em;
+font-family: sans-serif; font-size: 95%; border: 4px ridge #9AF;}
+div.contents p {margin-left: 2em; text-indent: -2em;}
+
