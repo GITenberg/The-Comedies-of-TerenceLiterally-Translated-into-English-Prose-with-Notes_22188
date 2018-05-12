@@ -19,6 +19,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/25168
     wikipedia: http://en.wikipedia.org/wiki/Terence
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/22188#The-Comedies-of-TerenceLiterally-Translated-into-English-Prose-with-Notes
 gutenberg_issued: '2007-07-31'
 gutenberg_type: Text
 identifiers:
