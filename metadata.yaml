@@ -1,0 +1,40 @@
+_repo: The-Comedies-of-TerenceLiterally-Translated-into-English-Prose-with-Notes_22188
+_version: 0.1.0
+contributor:
+  translator:
+    agent_name: Riley, Henry T. (Henry Thomas)
+    alias: Riley, Henry Thomas
+    birthdate: 1816
+    deathdate: 1878
+    gutenberg_agent_id: '8085'
+    url: http://www.gutenberg.org/2009/agents/8085
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Terence
+    alias: Afer, Publius Terentius
+    gutenberg_agent_id: '25168'
+    url: http://www.gutenberg.org/2009/agents/25168
+    wikipedia: http://en.wikipedia.org/wiki/Terence
+description: ''
+gutenberg_issued: '2007-07-31'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '22188'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Latin drama (Comedy) -- Translations into English'
+- !lcc 'PA'
+- !lcsh 'Terence -- Translations into English'
+tableOfContents: Andria; or, the Fair Andrian -- Eunuchus; or, the Eunuch -- Heautontimorumenos;
+  or, the Self-Tormentor -- Adelphi; or, the Brothers -- Hecyra; the Mother-in-law
+  -- Phormio; or, the Scheming Parasite.
+title: 'The Comedies of Terence
+
+  Literally Translated into English Prose, with Notes'
+url: http://www.gutenberg.org/ebooks/22188
